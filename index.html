@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deliverable 11</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex justify-center m-auto">
+        <form action="" onsubmit="return validateForm()" method="post">
+            <div>
+                <input class="bg-red-700 text-black border-black border-solid border-2 mt-32 mb-8 ml-16 p-2 w-72 rounded-full" type="email" name="email" id="" placeholder="Email"><br>
+            </div>
+            <div>
+                <input onfocus="show();" onblur="hide();" onkeyup="vali();" class="bg-red-700 text-black border-black border-solid border-2 ml-16 p-2 w-72 rounded-full" type="password" name="password" id="pw" placeholder="Password">
+            </div>
+            <div class="text-red-600" id="pw-err"></div>
+            <div>
+                <input class="bg-black text-white border-red-700 border-solid border-2 mt-8 ml-36 p-2 w-32 rounded-full" type="submit" id="submit-btn" value="Submit">
+            </div>
+        </form>
+    </div>
+
+<script src="val.js"></script>
+</body>
+</html>
